@@ -1,10 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+export default {
   output: 'export',
   images: {
     unoptimized: true,
   },
   basePath: '/gender-inequality',
 };
-
-module.exports = nextConfig;
